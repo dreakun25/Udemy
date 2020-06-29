@@ -6,10 +6,16 @@ body {
 
 a{
     color: #eeeeee;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 h1, h3{
     color: #222831;
+    text-decoration: underline;
 }
 
 hr{
@@ -19,6 +25,10 @@ hr{
     height: 0;
     width: 5%;
     opacity: 0.25;
+}
+
+.table{
+    border: dashed;
 }
 
 .profile-photo{
