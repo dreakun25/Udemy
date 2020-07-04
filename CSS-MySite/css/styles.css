@@ -3,6 +3,7 @@ body {
   color: #363636;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
+  font-size: 0.9vw;
 }
 
 h1 {
@@ -49,18 +50,18 @@ hr{
     border-width: 7px;
     width: 5%;
     color: #dbdfdf;
-    margin: 50px auto;
+    margin: 25vh auto;
 }
 
-.top-container {
+.top{
   background-color: #99d8d0;
   margin: 0;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container{
-    margin: 100px 0;
+.middle{
+    margin: 10vh 0;
 }
 
 .bottom-container{
@@ -107,18 +108,24 @@ hr{
 
 .bottom-cloud {
   position: absolute;
-  left: 200px;
-  bottom: 300px;
+  right: 20vw;
+  top: 5vh;
+  width: 10vw;
+  height: auto;
 }
 
 .top-cloud {
   position: absolute;
-  right: 200px;
-  top: 50px;
+  left: 20vw;
+  top: 30vh;
+  width: 10vw;
+  height: auto;
 }
 
 .mountain {
   margin: 0;
+  width: 33.33vw;
+  height: auto;
 }
 
 .profile-photo {
@@ -135,20 +142,22 @@ hr{
 }
 
 .camera {
-  width: 25%;
+  width: 18vw;
+  height: auto;
   float: right;
-  padding-right: 150px;
+  padding-right: 5vw;
+  margin-bottom: 3vh;
 }
 
 .computer {
   width: 25%;
   float: left;
-  margin-right: 30px;
+  margin-right: 3vw;
 }
 
 .skill-row{
     width: 50%;
-    margin: 100px auto;
+    margin: 15vh auto;
     text-align: left;
     line-height: 2;
 }
